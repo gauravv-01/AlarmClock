@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">Alarm Clock</div>
+        <div class="containerBody">
+            <div class="notification hidden" id="notification">Alarm Set Successfully!</div>
+            <img class="alarmClock" id="alarmClock" src="assets/alarmClock.png" alt="">    
+            <button id="myButton" class="">
+                Set Alarm
+            </button>
+            <button id="stopAlarm" class="hidden">
+                Stop
+            </button>
+          <div id="myPopup" class="popup">
+              <div class="popup-content">
+                  <h1>
+                        Set Alarm
+                    </h1>
+                    <span style="font-size: 24px; margin-top: 20px; margin-left: 40px;">Enter Time: </span>
+                <div class="inputs">
+                    <input class="input" type="text" id="alarmHour">
+                    <p>Hr( 24hr format )</p>
+                    <input class="input" type="text" id="alarmMin">
+                    <p>Min</p>
+
+                </div>
+                <div class="buttons">
+
+                    <button id="saveAlarm">
+                          Save
+                      </button>
+                    <button id="closePopup">
+                          Close
+                      </button>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
